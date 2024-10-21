@@ -1,0 +1,14 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.env
+
+# Environment files
+env.dev.json
+env.prod.json
+
+# Other files
+.idea/
+.vscode/

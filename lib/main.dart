@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Dart Define Example'),
         ),
-        body: Center(
+        body: const Center(
           child: Text('API URL: $apiUrl\nAPI Key: $apiKey'),
         ),
       ),

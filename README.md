@@ -46,13 +46,13 @@ An example Flutter project demonstrating how to securely pass environment variab
 - **Run the App in Development Mode:**
 
   ```bash
-  flutter run --dart-define-from-file=env.dev.json --flavor development -t lib/main_development.dart
+  flutter run --dart-define-from-file=env.dev.json
   ```
 
 - **Build the App for Production:**
 
   ```bash
-  flutter build apk --release --dart-define-from-file=env.prod.json --flavor production -t lib/main_production.dart
+  flutter build apk --release --dart-define-from-file=env.prod.json
   ```
 
 ## CI/CD Integration
